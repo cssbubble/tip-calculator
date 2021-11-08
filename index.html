@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="https://unpkg.com/alpinejs@3.5.0/dist/cdn.min.js"></script>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="bg-gray-800">
+  <div class="w-60 mx-auto h-screen font-mono ">
+    <div class="flex flex-col main-bg-color">
+      <section class="main-bg-color py-5">
+        <h1 class="flex flex-col items-center uppercase tracking-wider title-text text-sm font-semibold"><span>spli</span> <span>tter</span></h1>
+      </section>
+      <section class="bg-white flex flex-col rounded-lg pb-5">
+        <div class="mx-5 my-6 text-xs other-text font-semibold relative">
+          <label for="total"> Bill 
+            <div class="flex justify-start items-center">
+              <h3 class="absolute pl-3">$</h3>
+              <input 
+              type="number" 
+              id="total" 
+              placeholder=""
+              value="142.55"
+              class="bg-gray-100 dark font-semibold text-lg w-full h-7 text-right flex justify-center items-center mx-auto pl-3 rounded">
+            </div>  
+          </label>
+        </div>
+        <div class="mx-5">
+          <h2 class="other-text">Select Tip %</h2>
+          <div class="grid grid-cols-2 gap-3 mt-2">
+            <div class="flex justify-center items-center dark-bg rounded text-white py-1">5%</div>
+            <div class="flex justify-center items-center dark-bg rounded text-white py-1">10%</div>
+            <div class="flex justify-center items-center dark-bg rounded text-white py-1">15%</div>
+            <div class="flex justify-center items-center dark-bg rounded text-white py-1">25%</div>
+            <div class="flex justify-center items-center dark-bg rounded text-white py-1">50%</div>
+            <div class="flex justify-center items-center dark-bg rounded text-white py-1">Custom</div>
+          </div>
+        </div>
+        <div class="mx-5 my-6 text-xs other-text font-semibold relative">
+          <label for="people"> Number of People 
+            <div class="flex justify-start items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 absolute pl-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+              </svg>
+              <input 
+              type="number" 
+              id="people" 
+              placeholder=""
+              value="5"
+              class="bg-gray-100 dark font-semibold text-lg w-full h-7 text-right flex justify-center items-center mx-auto pl-3 rounded">
+            </div>  
+          </label>
+        </div>
+        <div class="mx-5 py-5 px-3 dark-bg rounded-lg flex flex-col ">
+          <div class="flex justify-between items-center">
+            <div class="small-text">
+              <h3 class="text-white">Tip Amount</h3>
+              <p class="text-gray-400 xsmall-text">/ person</p>
+            </div>
+            <h2 class="st-cyan font-bold">$4.27</h2>
+          </div>
+
+          <div class="flex justify-between items-center mt-5">
+            <div class="small-text">
+              <h3 class="text-white">Total</h3>
+              <p class="text-gray-400 xsmall-text">/ person</p>
+            </div>
+            <h2 class="st-cyan font-bold">$32.79</h2>
+          </div>
+
+          <div class="">
+            <button class="st-cyan-bg dark font-semibold w-full py-2 rounded text-xs mt-5 ">RESET</button>
+          </div>
+        </div> 
+      </section>
+      <div class=" mt-5 attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">cssbubble</a>.
+      </div>
+    </div>
+    
+  </div>  
+</body>
+</html>
