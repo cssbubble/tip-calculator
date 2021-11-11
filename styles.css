@@ -17,14 +17,12 @@
 }
 .other-text {
     color: var(--Dark-grayish-cyan1);
-    font-size: 0.6rem;
 }
-.small-text {
-    font-size: 0.6rem;
+.input-bg {
+    background-color: var(--Light-grayish-cyan);
 }
-.xsmall-text {
-    font-size: 0.5rem;
-}
+
+
 .dark {
     color: var(--Very-dark-cyan);
 }
