@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./tip-calculator-mb-view.jpg)
+![](./tip-calculator-mb-view.png)
 
 
 
