@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://cssbubble.github.io/tip-calculator/)
-- Live Site URL: [Add live site URL here](https://cssbubble.github.io/tip-calculator/)
+- Solution URL: [solution](https://github.com/cssbubble/tip-calculator)
+- Live Site URL: [live site](https://cssbubble.github.io/tip-calculator/)
 
 ## My process
 I used Tailwind css and Alpine js for this project.
